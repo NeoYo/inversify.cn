@@ -1,15 +1,32 @@
-logo:
-  text: InversifyJS
-  type: link
-  path: index.html
-
-main:
-- text: PROJECTS
-  type: label
-- text: My Awesome Projects
-  type: link
-  path: projects/my-awesome-project.html
-  children:
-  - text: My Awesome Projects Page 1
-    type: link
-    path: projects/my-awesome-project-page-1.html
+{
+  "logo": {
+    "text": "InversifyJS",
+    "type": "link",
+    "path": "index.html"
+  },
+  "main": [
+    {
+      "text": "简介",
+      "type": "label"
+    },
+    {
+      "text": "UI",
+      "type": "link",
+      "path": "swagger/ui.html"
+    },
+    {
+      "text": "To HTML",
+      "type": "link",
+      "path": "swagger/to-html.html"
+    },
+    {
+      "text": "SUPPORT AND FEEDBACK",
+      "type": "label"
+    },
+    {
+      "text": "Raise an Issue on Github",
+      "type": "link",
+      "path": "https://github.bus.zalan.do/stargate/hexo-stargate-doc-theme-seed/issues/new"
+    }
+  ]
+}
