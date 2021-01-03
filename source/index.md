@@ -38,7 +38,7 @@ InversifyJS有4个主要目标:
 
 3. 尽可能少的运行时开销。
 
-4. 提供[艺术编程体验和生态](https://github.com/inversify/InversifyJS/blob/master/wiki/ecosystem.md)。
+4. 提供[艺术编程体验和生态](https://doc.inversify.cloud/zh_CN/ecosystem.md)。
 
 ## 业内评价
 
@@ -84,15 +84,15 @@ inversifyjs需要现代JavaScript引擎，支持以下特性
 
 - [Reflect metadata](https://rbuckton.github.io/reflect-metadata/)
 - [Map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map)
-- [Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise) (Only required if using [provider injection](https://github.com/inversify/InversifyJS/blob/master/wiki/provider_injection.md))
-- [Proxy](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy) (Only required if using [activation handlers](https://github.com/inversify/InversifyJS/blob/master/wiki/activation_handler.md))
+- [Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise) (Only required if using [provider injection](https://doc.inversify.cloud/zh_CN/provider_injection.md))
+- [Proxy](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy) (Only required if using [activation handlers](https://doc.inversify.cloud/zh_CN/activation_handler.md))
 
 
 如果您的运行环境不支持这些特性，您可能需要导入 `shim` 或 `polyfill`
 
 > ：警示： **`reflect-metadata` `polyfill` 应该在您整个应用中只导入一次** 因为 `Reflect` 对象需要成为一个全局的单例。 更多细节可以在[这里](https://github.com/inversify/InversifyJS/issues/262#issuecomment-227593844)找到。 
 
-查看维基中的[开发环境 `polyfills`](https://github.com/inversify/InversifyJS/blob/master/wiki/environment.md)
+查看维基中的[开发环境 `polyfills`](https://doc.inversify.cloud/zh_CN/environment.md)
 , 还可以从[基本示例](https://github.com/inversify/inversify-basic-example)中去学习.
 
 ## 基础部分
@@ -238,7 +238,7 @@ expect(ninja.sneak()).eql("hit!"); // true
 正如我们所看到的 `Katana` and `Shuriken` 被成功的解析和注入进 `Ninja`。
 
 InversifyJS 支持 ES5 和 ES6 而且可以在没有 TypeScript 环境下使用。
-前往 [**JavaScript 示例**](https://github.com/inversify/InversifyJS/blob/master/wiki/basic_js_example.md)了解更多
+前往 [**JavaScript 示例**](https://doc.inversify.cloud/zh_CN/basic_js_example.md)了解更多
 
 ## InversifyJS 特性 和 API
 让我们一起看看 InversifyJS 的特性!
@@ -248,42 +248,42 @@ InversifyJS 支持 ES5 和 ES6 而且可以在没有 TypeScript 环境下使用�
 - [容器 API](https://doc.inversify.cloud/zh_CN/container_api.md)
 - [声明容器模块](https://doc.inversify.cloud/zh_CN/container_modules.md)
 - [容器快照](https://doc.inversify.cloud/zh_CN/container_snapshots.md)
-- [Controlling the scope of the dependencies](https://github.com/inversify/InversifyJS/blob/master/wiki/scope.md)
-- [Declaring optional dependencies](https://github.com/inversify/InversifyJS/blob/master/wiki/optional_dependencies.md)
-- [Injecting a constant or dynamic value](https://github.com/inversify/InversifyJS/blob/master/wiki/value_injection.md)
-- [Injecting a class constructor](https://github.com/inversify/InversifyJS/blob/master/wiki/constructor_injection.md)
-- [Injecting a Factory](https://github.com/inversify/InversifyJS/blob/master/wiki/factory_injection.md)
-- [Auto factory](https://github.com/inversify/InversifyJS/blob/master/wiki/auto_factory.md)
-- [Injecting a Provider (asynchronous Factory)](https://github.com/inversify/InversifyJS/blob/master/wiki/provider_injection.md)
-- [Activation handler](https://github.com/inversify/InversifyJS/blob/master/wiki/activation_handler.md)
-- [Post Construct decorator](https://github.com/inversify/InversifyJS/blob/master/wiki/post_construct.md)
-- [Middleware](https://github.com/inversify/InversifyJS/blob/master/wiki/middleware.md)
-- [Multi-injection](https://github.com/inversify/InversifyJS/blob/master/wiki/multi_injection.md)
-- [Tagged bindings](https://github.com/inversify/InversifyJS/blob/master/wiki/tagged_bindings.md)
-- [Create your own tag decorators](https://github.com/inversify/InversifyJS/blob/master/wiki/custom_tag_decorators.md)
-- [Named bindings](https://github.com/inversify/InversifyJS/blob/master/wiki/named_bindings.md)
-- [Default target](https://github.com/inversify/InversifyJS/blob/master/wiki/default_targets.md)
-- [Support for hierarchical DI systems](https://github.com/inversify/InversifyJS/blob/master/wiki/hierarchical_di.md)
-- [Contextual bindings & @targetName](https://github.com/inversify/InversifyJS/blob/master/wiki/contextual_bindings.md)
-- [property_injection](https://github.com/inversify/InversifyJS/blob/master/wiki/property_injection.md)
-- [circular_dependencies](https://github.com/inversify/InversifyJS/blob/master/wiki/circular_dependencies.md)
-- [Inheritance](https://github.com/inversify/InversifyJS/blob/master/wiki/inheritance.md)
+- [Controlling the scope of the dependencies](https://doc.inversify.cloud/zh_CN/scope.md)
+- [Declaring optional dependencies](https://doc.inversify.cloud/zh_CN/optional_dependencies.md)
+- [Injecting a constant or dynamic value](https://doc.inversify.cloud/zh_CN/value_injection.md)
+- [Injecting a class constructor](https://doc.inversify.cloud/zh_CN/constructor_injection.md)
+- [Injecting a Factory](https://doc.inversify.cloud/zh_CN/factory_injection.md)
+- [Auto factory](https://doc.inversify.cloud/zh_CN/auto_factory.md)
+- [Injecting a Provider (asynchronous Factory)](https://doc.inversify.cloud/zh_CN/provider_injection.md)
+- [Activation handler](https://doc.inversify.cloud/zh_CN/activation_handler.md)
+- [Post Construct decorator](https://doc.inversify.cloud/zh_CN/post_construct.md)
+- [Middleware](https://doc.inversify.cloud/zh_CN/middleware.md)
+- [Multi-injection](https://doc.inversify.cloud/zh_CN/multi_injection.md)
+- [Tagged bindings](https://doc.inversify.cloud/zh_CN/tagged_bindings.md)
+- [Create your own tag decorators](https://doc.inversify.cloud/zh_CN/custom_tag_decorators.md)
+- [Named bindings](https://doc.inversify.cloud/zh_CN/named_bindings.md)
+- [Default target](https://doc.inversify.cloud/zh_CN/default_targets.md)
+- [Support for hierarchical DI systems](https://doc.inversify.cloud/zh_CN/hierarchical_di.md)
+- [Contextual bindings & @targetName](https://doc.inversify.cloud/zh_CN/contextual_bindings.md)
+- [property_injection](https://doc.inversify.cloud/zh_CN/property_injection.md)
+- [circular_dependencies](https://doc.inversify.cloud/zh_CN/circular_dependencies.md)
+- [Inheritance](https://doc.inversify.cloud/zh_CN/inheritance.md)
 
-请查阅 [wiki](https://github.com/inversify/InversifyJS/blob/master/wiki/readme.md) 获取更多细节。
+请查阅 [wiki](https://doc.inversify.cloud/zh_CN/readme.md) 获取更多细节。
 
 ## 生态
 为了提供艺术般的开发体验，我们也不断努力:
 
-- [中间件插件](https://github.com/inversify/InversifyJS/blob/master/wiki/ecosystem.md#extensions)
-- [开发工具](https://github.com/inversify/InversifyJS/blob/master/wiki/ecosystem.md#development-tools)
-- [例子](https://github.com/inversify/InversifyJS/blob/master/wiki/ecosystem.md#examples)
+- [中间件插件](https://doc.inversify.cloud/zh_CN/ecosystem.md#extensions)
+- [开发工具](https://doc.inversify.cloud/zh_CN/ecosystem.md#development-tools)
+- [例子](https://doc.inversify.cloud/zh_CN/ecosystem.md#examples)
 
-请查阅 [生态 wiki 页](https://github.com/inversify/InversifyJS/blob/master/wiki/ecosystem.md) 去了解更多。
+请查阅 [生态 wiki 页](https://doc.inversify.cloud/zh_CN/ecosystem.md) 去了解更多。
 
 ## Support
 如果您遇到任何问题，我们乐意帮忙。您可以使用 [问题页](https://github.com/inversify/InversifyJS/issues) 报告问题。
 
-如果您想要和开发团队分享您的想法或者加入我们，您可以参加 [论坛讨论](https://groups.google.com/forum/#!forum/inversifyjs)。您也可以查看 [wiki](https://github.com/inversify/InversifyJS/blob/master/wiki/readme.md) 来了解更多关于 InversifyJS。
+如果您想要和开发团队分享您的想法或者加入我们，您可以参加 [论坛讨论](https://groups.google.com/forum/#!forum/inversifyjs)。您也可以查看 [wiki](https://doc.inversify.cloud/zh_CN/readme.md) 来了解更多关于 InversifyJS。
 
 ## Acknowledgements
 
