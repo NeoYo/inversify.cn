@@ -1,4 +1,8 @@
-# InversifyJS
+# InversifyJS 文档翻译
+
+> 这个库3年前由于维护历史代码，用了这个库，在一边学习 InversifyJS 的同时，翻译了其中一小部分
+
+> 最近发现网上有比较完整的翻译文档，可以看这里哈 https://doc.inversify.cloud/zh_cn/ ———— 2021.01.05
 
 [![Join the chat at https://gitter.im/inversify/InversifyJS](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/inversify/InversifyJS?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![Build Status](https://secure.travis-ci.org/inversify/InversifyJS.svg?branch=master)](https://travis-ci.org/inversify/InversifyJS)
@@ -15,9 +19,6 @@
 [![NPM](https://nodei.co/npm-dl/inversify.png?months=9&height=3)](https://nodei.co/npm/inversify/)
 
 ![](https://raw.githubusercontent.com/inversify/inversify.github.io/master/img/cover.jpg)
-
-> 这个库3年前由于维护历史代码，用了这个库，在一边学习 InversifyJS 的同时，翻译了其中一小部分
-> 最近发现网上已经比较完整的翻译文档，可以看这里哈 https://doc.inversify.cloud/zh_cn/ ———— 2021.01.05
 
 一个强大又轻量的控制反转容器，提供给JavaScript 和 Node.js 应用使用，使用TypeScript编写。
 
