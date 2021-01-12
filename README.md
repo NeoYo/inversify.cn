@@ -1,9 +1,5 @@
 # InversifyJS 文档翻译
 
-> 这个库3年前由于维护历史代码，用了这个库，在一边学习 InversifyJS 的同时，翻译了其中一小部分
-
-> 最近发现网上有比较完整的翻译文档，可以看这里哈 https://doc.inversify.cloud/zh_cn/ ———— 2021.01.05
-
 [![Join the chat at https://gitter.im/inversify/InversifyJS](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/inversify/InversifyJS?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![Build Status](https://secure.travis-ci.org/inversify/InversifyJS.svg?branch=master)](https://travis-ci.org/inversify/InversifyJS)
 [![Windows Build status](https://ci.appveyor.com/api/projects/status/cd9ekn86p8y2t7h4/branch/master?svg=true)](https://ci.appveyor.com/project/remojansen/inversifyjs/branch/master)
@@ -247,31 +243,33 @@ InversifyJS 支持 ES5 和 ES6 而且可以在没有 TypeScript 环境下使用�
 ## InversifyJS 特性 和 API
 让我们一起看看 InversifyJS 的特性!
 
-- [类作为标识](https://github.com/liveabean/InversifyJS/blob/feature/translate_chinese/wiki/zh_CN/classes_as_id.md)
-- [Symbol作为标识](https://github.com/liveabean/InversifyJS/blob/feature/translate_chinese/wiki/zh_CN/symbols_as_id.md)
-- [容器 API](https://github.com/liveabean/InversifyJS/blob/feature/translate_chinese/wiki/zh_CN/container_api.md)
-- [声明容器模块](https://github.com/liveabean/InversifyJS/blob/feature/translate_chinese/wiki/zh_CN/container_modules.md)
-- [容器快照](https://github.com/liveabean/InversifyJS/blob/feature/translate_chinese/wiki/zh_CN/container_snapshots.md)
-- [Controlling the scope of the dependencies](https://github.com/inversify/InversifyJS/blob/master/wiki/scope.md)
-- [Declaring optional dependencies](https://github.com/inversify/InversifyJS/blob/master/wiki/optional_dependencies.md)
-- [Injecting a constant or dynamic value](https://github.com/inversify/InversifyJS/blob/master/wiki/value_injection.md)
-- [Injecting a class constructor](https://github.com/inversify/InversifyJS/blob/master/wiki/constructor_injection.md)
-- [Injecting a Factory](https://github.com/inversify/InversifyJS/blob/master/wiki/factory_injection.md)
-- [Auto factory](https://github.com/inversify/InversifyJS/blob/master/wiki/auto_factory.md)
-- [Injecting a Provider (asynchronous Factory)](https://github.com/inversify/InversifyJS/blob/master/wiki/provider_injection.md)
-- [Activation handler](https://github.com/inversify/InversifyJS/blob/master/wiki/activation_handler.md)
-- [Post Construct decorator](https://github.com/inversify/InversifyJS/blob/master/wiki/post_construct.md)
-- [Middleware](https://github.com/inversify/InversifyJS/blob/master/wiki/middleware.md)
-- [Multi-injection](https://github.com/inversify/InversifyJS/blob/master/wiki/multi_injection.md)
-- [Tagged bindings](https://github.com/inversify/InversifyJS/blob/master/wiki/tagged_bindings.md)
-- [Create your own tag decorators](https://github.com/inversify/InversifyJS/blob/master/wiki/custom_tag_decorators.md)
-- [Named bindings](https://github.com/inversify/InversifyJS/blob/master/wiki/named_bindings.md)
-- [Default target](https://github.com/inversify/InversifyJS/blob/master/wiki/default_targets.md)
-- [Support for hierarchical DI systems](https://github.com/inversify/InversifyJS/blob/master/wiki/hierarchical_di.md)
-- [Contextual bindings & @targetName](https://github.com/inversify/InversifyJS/blob/master/wiki/contextual_bindings.md)
-- [property_injection](https://github.com/inversify/InversifyJS/blob/master/wiki/property_injection.md)
-- [circular_dependencies](https://github.com/inversify/InversifyJS/blob/master/wiki/circular_dependencies.md)
-- [Inheritance](https://github.com/inversify/InversifyJS/blob/master/wiki/inheritance.md)
+
+- [类作为标识](https://github.com/NeoYo/InversifyJS/blob/master/wiki/zh_CN/classes_as_id.md)
+- [Symbol作为标识](https://github.com/NeoYo/InversifyJS/blob/master/wiki/zh_CN/symbols_as_id.md)
+- [容器 API](https://github.com/NeoYo/InversifyJS/blob/master/wiki/zh_CN/container_api.md)
+- [声明容器模块](https://github.com/NeoYo/InversifyJS/blob/master/wiki/zh_CN/container_modules.md)
+- [容器快照](https://github.com/NeoYo/InversifyJS/blob/master/wiki/zh_CN/container_snapshots.md)
+- [控制依赖项的生命周期](https://github.com/NeoYo/InversifyJS/blob/master/wiki/zh_CN/scope.md)
+- [声明可选依赖项](https://github.com/NeoYo/InversifyJS/blob/master/wiki/zh_CN/optional_dependencies.md)
+- [注入常量或者动态值](https://github.com/NeoYo/InversifyJS/blob/master/wiki/zh_CN/value_injection.md)
+- [注入类的构造器](https://github.com/NeoYo/InversifyJS/blob/master/wiki/zh_CN/constructor_injection.md)
+- [注入工厂](https://github.com/NeoYo/InversifyJS/blob/master/wiki/zh_CN/factory_injection.md)
+- [自动工厂](https://github.com/NeoYo/InversifyJS/blob/master/wiki/zh_CN/auto_factory.md)
+- [注入提供者（异步工厂）](https://github.com/NeoYo/InversifyJS/blob/master/wiki/zh_CN/provider_injection.md)
+- [激活句柄](https://github.com/NeoYo/InversifyJS/blob/master/wiki/zh_CN/activation_handler.md)
+- [构造函数后置装饰器](https://github.com/NeoYo/InversifyJS/blob/master/wiki/zh_CN/post_construct.md)
+- [中间件](https://github.com/NeoYo/InversifyJS/blob/master/wiki/zh_CN/middleware.md)
+- [多重注入](https://github.com/NeoYo/InversifyJS/blob/master/wiki/zh_CN/multi_injection.md)
+- [标签绑定](https://github.com/NeoYo/InversifyJS/blob/master/wiki/zh_CN/tagged_bindings.md)
+- [创建你自己的标签装饰器](https://github.com/NeoYo/InversifyJS/blob/master/wiki/zh_CN/custom_tag_decorators.md)
+- [命名绑定](https://github.com/NeoYo/InversifyJS/blob/master/wiki/zh_CN/named_bindings.md)
+- [默认目标](https://github.com/NeoYo/InversifyJS/blob/master/wiki/zh_CN/default_targets.md)
+- [对层次化依赖注入系统的支持](https://github.com/NeoYo/InversifyJS/blob/master/wiki/zh_CN/hierarchical_di.md)
+- [上下文绑定以及 @targetName](https://github.com/NeoYo/InversifyJS/blob/master/wiki/zh_CN/contextual_bindings.md)
+- [属性注入](https://github.com/NeoYo/InversifyJS/blob/master/wiki/zh_CN/property_injection.md)
+- [循环依赖](https://github.com/NeoYo/InversifyJS/blob/master/wiki/zh_CN/circular_dependencies.md)
+- [继承](https://github.com/NeoYo/InversifyJS/blob/master/wiki/zh_CN/inheritance.md)
+
 
 请查阅 [wiki](https://github.com/inversify/InversifyJS/blob/master/wiki/readme.md) 获取更多细节。
 
