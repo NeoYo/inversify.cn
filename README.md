@@ -1,4 +1,4 @@
-# [InversifyJS](https://inversify.io/) [中文文档](www.inversify.cn)
+# [InversifyJS](https://inversify.io/) [中文文档](https://www.inversify.cn)
 
 [![Join the chat at https://gitter.im/inversify/InversifyJS](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/inversify/InversifyJS?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![Build Status](https://secure.travis-ci.org/inversify/InversifyJS.svg?branch=master)](https://travis-ci.org/inversify/InversifyJS)
