@@ -1,4 +1,4 @@
-# InversifyJS 文档翻译
+# [InversifyJS](https://inversify.io/) [中文文档](www.inversify.cn)
 
 [![Join the chat at https://gitter.im/inversify/InversifyJS](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/inversify/InversifyJS?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![Build Status](https://secure.travis-ci.org/inversify/InversifyJS.svg?branch=master)](https://travis-ci.org/inversify/InversifyJS)
@@ -17,6 +17,10 @@
 ![](https://raw.githubusercontent.com/inversify/inversify.github.io/master/img/cover.jpg)
 
 一个强大又轻量的控制反转容器，提供给JavaScript 和 Node.js 应用使用，使用TypeScript编写。
+
+InversifyJS官网：https://inversify.io
+
+InversifyJS中文文档：https://www.inversify.cn
 
 ## 简介
 InversifyJS 是一个轻量的 (4KB) 控制反转容器 (IoC)，可用于编写 TypeScript 和 JavaScript 应用。
