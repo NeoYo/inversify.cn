@@ -29,7 +29,7 @@ InversifyJS 是一个轻量的 (4KB) 控制反转容器 (IoC)，可用于编写 
 ## 为什么要有 InversifyJS?
 JavaScript 现在支持面向对象编程，基于类的继承。 这些特性不错但事实上它们也是
 [危险的](https://medium.com/@dan_abramov/how-to-use-classes-and-sleep-at-night-9af8de78ccb4)。
-我们需要一个优秀的面向对象设计（比如 [SOLID](https://en.wikipedia.org/wiki/SOLID_(object-oriented_design))，[Composite Reuse](https://en.wikipedia.org/wiki/Composition_over_inheritance)等）来保护我们避免这些威胁。然而，面向对象的设计是复杂的，所以我们创建了 InversifyJS。
+我们需要一个优秀的面向对象设计（比如 [SOLID](https://en.wikipedia.org/wiki/SOLID_(object-oriented_design))，[Composite Reuse](https://en.wikipedia.org/wiki/Composition_over_inheritance)等）来保护我们避免这些威胁。然而，面向对象的设计是复杂的，所以我们创建了 InversifyJS。
 
 InversifyJS 是一个工具，它能帮助 JavaScript 开发者，写出出色的面向对象设计的代码。
 
@@ -60,7 +60,7 @@ InversifyJS有4个主要目标:
 
 ## 安装
 
-您可以使用`npm`获得最新的版本和类型定义：
+您可以使用`npm`获得最新的版本和类型定义：
 
 ```
 $ npm install inversify reflect-metadata --save
@@ -94,7 +94,7 @@ inversifyjs需要现代JavaScript引擎，支持以下特性
 
 如果您的运行环境不支持这些特性，您可能需要导入 `shim` 或 `polyfill`
 
-> ：警示： **`reflect-metadata` `polyfill` 应该在您整个应用中只导入一次** 因为 `Reflect` 对象需要成为一个全局的单例。 更多细节可以在[这里](https://github.com/inversify/InversifyJS/issues/262#issuecomment-227593844)找到。 
+> ：警示： **`reflect-metadata` `polyfill` 应该在您整个应用中只导入一次** 因为 `Reflect` 对象需要成为一个全局的单例。 更多细节可以在[这里](https://github.com/inversify/InversifyJS/issues/262#issuecomment-227593844)找到。 
 
 查看维基中的[开发环境 `polyfills`](https://doc.inversify.cloud/zh_CN/environment.html)
 , 还可以从[基本示例](https://github.com/inversify/inversify-basic-example)中去学习.
@@ -226,7 +226,7 @@ export { myContainer };
 
 ### 步骤 4: 解析依赖
 
-您可以使用方法 `get<T>` 从 `Container` 中获得依赖。记得您应该在[根结构](http://blog.ploeh.dk/2011/07/28/CompositionRoot/)(尽可能靠近应用程序的入口点的位置)去解析依赖，避免[服务器定位反模式](http://blog.ploeh.dk/2010/02/03/ServiceLocatorisanAnti-Pattern/)。
+您可以使用方法 `get<T>` 从 `Container` 中获得依赖。记得您应该在[根结构](http://blog.ploeh.dk/2011/07/28/CompositionRoot/)(尽可能靠近应用程序的入口点的位置)去解析依赖，避免[服务器定位反模式](http://blog.ploeh.dk/2010/02/03/ServiceLocatorisanAnti-Pattern/)。
 
 ```ts
 import { myContainer } from "./inversify.config";
